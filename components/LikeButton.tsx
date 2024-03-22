@@ -9,11 +9,11 @@ import toast from "react-hot-toast";
 import useAuthModal from "@/hooks/useAuthModal";
 import { useUser } from "@/hooks/useUser";
 
-interface LikedButtonProps {
+interface LikeButtonProps {
   songId: string;
 }
 
-const LikedButton: React.FC<LikedButtonProps> = ({ songId }) => {
+const LikeButton: React.FC<LikeButtonProps> = ({ songId }) => {
   const router = useRouter();
   const { supabaseClient } = useSessionContext();
 
@@ -81,4 +81,4 @@ const LikedButton: React.FC<LikedButtonProps> = ({ songId }) => {
   );
 };
 
-export default LikedButton;
+export default LikeButton;

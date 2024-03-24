@@ -6,7 +6,7 @@ import { HiSpeakerWave, HiSpeakerXMark } from "react-icons/hi2";
 import { AiFillStepBackward, AiFillStepForward } from "react-icons/ai";
 import { BsPauseFill, BsPlayFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
-// import useSound from "use-sound";
+
 
 import usePlayer from "@/hooks/usePlayer";
 
